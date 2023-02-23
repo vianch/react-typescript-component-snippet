@@ -1,0 +1,19 @@
+"React typescript component snippet": {
+  "scope": "TypeScript",
+  "prefix": "rtcs",
+  "body": [
+    "import { FC, ReactElement } from 'react';",
+    "",
+    "type ${TM_FILENAME_BASE}Props = {",
+    "\t${1}",
+    "};",
+    "",
+    "const ${TM_FILENAME_BASE}: RC<${TM_FILENAME_BASE}Props> = ({ }: ${TM_FILENAME_BASE}Props ): ReactElement => {",
+    "\treturn <>${3:Happy ikicoding}</>;",
+    "};",
+    "",
+    "export default ComponentName;",
+    ""
+  ],
+  "description": "component scaffolding"
+}

@@ -1,0 +1,19 @@
+"React typescript component snippet": {
+  "scope": "TypeScript",
+  "prefix": "rtcs",
+  "body": [
+    "import { FC, ReactElement } from 'react';",
+    "",
+    "type ComponentProps = {",
+    "\t// Component props",
+    "};",
+    "",
+    "const ComponentName: RC<ComponentProps> = ({ }: ComponentProps ): ReactElement => {",
+    "\treturn <>Happy conding</>;",
+    "};",
+    "",
+    "export default ComponentName;",
+    ""
+  ],
+  "description": "component scaffolding"
+}

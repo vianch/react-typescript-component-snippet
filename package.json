@@ -1,0 +1,33 @@
+{
+  "name": "react-typescript-component-snippet",
+  "displayName": "react-typescript-component-snippet",
+  "description": "Visual studio snippet to scaffold new components",
+  "version": "0.0.1",
+  "keywords": [
+    "React",
+    "Typescript",
+    "React Typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vianch/react-typescript-component-snippet.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:react-typescript-component-snippet.helloWorld"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

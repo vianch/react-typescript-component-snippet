@@ -1,0 +1,47 @@
+{
+	"React typescript component snippet": {
+		"prefix": "tttc",
+		"body": [
+			"import { FC, ReactElement } from 'react';",
+			"",
+			"type ${TM_FILENAME_BASE}Props = {",
+			"\t${1}",
+			"};",
+			"",
+			"const ${TM_FILENAME_BASE}: FC<${TM_FILENAME_BASE}Props> = ({ }: ${TM_FILENAME_BASE}Props ): ReactElement => {",
+			"\treturn <>${3:Happy coding}</>;",
+			"};",
+			"",
+			"export default ${TM_FILENAME_BASE};",
+			""
+		],
+		"description": "component scaffolding"
+	},
+	"storybook": {
+		"prefix": "tttsb",
+		"body": [
+			"import React, { ReactElement } from 'react';",
+			"import { Story, Meta } from '@storybook/react';",
+			"",
+			"import ${TM_FILENAME_BASE}Component, {${TM_FILENAME_BASE}Props} from './${TM_FILENAME_BASE}';",
+			"",
+			"export default {",
+			"\ttitle: 'Components/${TM_FILENAME_BASE}',",
+			"\tcomponent: ${TM_FILENAME_BASE}Component,",
+			"} as Meta;",
+			"",
+			"const Template: Story<${TM_FILENAME_BASE}Props> = (",
+			"\targs: ${TM_FILENAME_BASE}Props,",
+			"): ReactElement => {",
+			"\treturn (",
+			"\t\t<${TM_FILENAME_BASE}Component {...args} />",
+			"\t);",
+			"};",
+			"",
+			"export const ${TM_FILENAME_BASE} = Template.bind({});",
+			"${TM_FILENAME_BASE}.args = {};",
+			""
+		],
+		"description": "Storybook component"
+	}
+}

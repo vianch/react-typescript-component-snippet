@@ -4,4 +4,5 @@ This extension has limited number of useful snippets for Typescript React.
 
 | Snippet | Purpose                                                    |
 | ------- | ---------------------------------------------------------- |
-| `rtcs`  | Function Component base with Typescript and default export |
+| `tttc`  | Function Component base with Typescript and default export |
+| `tttsb` | Function Component with storybook scaffolding              |

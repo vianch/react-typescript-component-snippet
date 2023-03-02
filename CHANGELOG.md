@@ -1,3 +1,6 @@
+### 0.2.2 (2023-03-02)
+- Update React TypeScript storybook import
+
 ### 0.2.1 (2023-03-02)
 - Update README.md documentation
 

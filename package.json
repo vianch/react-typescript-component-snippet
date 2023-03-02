@@ -4,7 +4,7 @@
   "description": "Visual studio snippet to scaffold new components",
   "publisher": "vianch",
   "icon": "images/logo.png",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "keywords": [
     "React",
     "Typescript",

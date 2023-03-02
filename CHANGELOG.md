@@ -1,8 +1,11 @@
+### 0.2.3 (2023-03-02)
+- update README.md documentation
+  
 ### 0.2.2 (2023-03-02)
-- Update React TypeScript storybook import
+- update React TypeScript storybook import
 
 ### 0.2.1 (2023-03-02)
-- Update README.md documentation
+- update README.md documentation
 
 ## 0.2.0 (2023-03-02)
 - add React TypeScript basic hook snippet with useEffect
@@ -15,4 +18,4 @@
 - add React TypeScript component snippet
 
 ### 0.0.1 (2023-02-28)
-- Initial release
+- initial release

@@ -3,9 +3,8 @@
   "displayName": "react-typescript-component-snippet",
   "description": "Visual studio snippet to scaffold new components",
   "publisher": "vianch",
-  
   "icon": "images/logo.png",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "keywords": [
     "React",
     "Typescript",
@@ -14,6 +13,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vianch/react-typescript-component-snippet.git"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "pub:patch": "npm --no-git-tag-version version patch",
+    "pub:minor": "npm --no-git-tag-version version minor",
+    "pub:major": "npm --no-git-tag-version version major",
+    "pub:prerelease": "npm version prerelease --preid=alpha"
   },
   "engines": {
     "vscode": "^1.75.0"

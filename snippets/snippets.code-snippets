@@ -5,7 +5,7 @@
       "import { FC, ReactElement } from 'react';",
       "",
       "type ${TM_FILENAME_BASE}Props = {",
-      "\t${1}",
+      "\t${1}// Prop types here ",
       "};",
       "",
       "const ${TM_FILENAME_BASE}: FC<${TM_FILENAME_BASE}Props> = ({ }: ${TM_FILENAME_BASE}Props ): ReactElement => {",
@@ -15,9 +15,9 @@
       "export default ${TM_FILENAME_BASE};",
       ""
     ],
-    "description": "component scaffolding"
+    "description": "React component"
   },
-  "storybook": {
+  "Storybook typescript component": {
     "prefix": "tttsb",
     "body": [
       "import React, { ReactElement } from 'react';",
@@ -39,5 +39,37 @@
       ""
     ],
     "description": "Storybook component"
+  }, 
+  "typescript basic state hook": {
+    "prefix": "ttth",
+    "body": [
+      "export const useNewHook = (): stateType => {",
+      "\tconst [state, setNewState] = useState<stateType>(null);",
+      "",
+      "\t// ...",
+      "",
+      "\treturn state;",
+      "}"
+    ],
+    "description": "React TypeScript hook"
+  },
+  "typescript hook with useEffect": {
+    "prefix": "ttthe",
+    "body": [
+      "export const useNewHook = (): stateType => {",
+      "\tconst [state, setNewState] = useState<stateType>(null);",
+      "",
+      "\tuseEffect(() => {",
+      "\t\t// ...",
+      "",
+      "\t\treturn () => {",
+      "\t\t // ..",
+      "\t\t};",
+      "\t});",
+      "",
+      "\treturn state;",
+      "}"
+    ],
+    "description": "React TypeScript hook with useEffect"
   }
 }

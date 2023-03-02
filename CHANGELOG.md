@@ -1,9 +1,11 @@
-# Change Log
+## 0.2.0 (2023-03-02)
+- add React TypeScript basic hook snippet with useEffect
+- add React TypeScript basic hook snippet with useEffect
+### 0.1.1 (2023-03-01)
+- add React TypeScript storybook component snippet
 
-All notable changes to the "react-typescript-component-snippet" extension will be documented in this file.
+### 0.1.0 (2023-03-01)
+- add React TypeScript component snippet
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
+### 0.0.1 (2023-02-28)
 - Initial release
